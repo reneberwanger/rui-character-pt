@@ -1,0 +1,90 @@
+﻿l_spanish:
+
+### メインキャラクタービュー / Main Character View ###
+RUI_Ch_show_items_TT:0 "#I Clique para mostrar elementos#!"
+RUI_Ch_hide_items_TT:0 "#I Clique para ocultar elementos#!"
+RUI_Ch_enlarge_character_TT:0 "#I Clique para aumentar o personagem#!"
+RUI_Ch_shrink_character_TT:0 "#I Clique para encolher o personagem#!"
+RUI_Ch_current_location_TEXT:0 "Em [Character.GetCurrentLocation.GetBaronyNameExplicitly]"
+
+# キャラクタープロフィールサブビュー / Character Profile Sub-View
+RUI_Ch_is_same_faith_TT:0 "Mesma [faith|E] que você"
+#RUI_Ch_hostility_to_faith_TT:0 "Sua [faith|E] os considera [GetPlayer.GetFaith.GetRelationNameTo( CharacterWindow.GetCharacter.GetFaith )|V]"
+RUI_Ch_is_same_culture_TT:0 "Mesma [culture|E] que você"
+RUI_Ch_has_same_heritage_TT:0 "Mesma [heritage|E] que sua [culture|E]"
+
+### 下部情報ビュー / Under Info View ###
+RUI_Ch_show_year_of_b_n_d_TT:0 "#I Clique para mostrar o ano de nascimento e morte#!"
+RUI_Ch_show_relation_TT:0 "#I Clique para mostrar sua relação com [CharacterWindow.GetCharacter.GetHerHim]#!"
+
+### タブビュー / Tabs View ###
+RUI_Ch_politics_tab_TEXT:0 "Políticas"
+RUI_Ch_keep_this_tab_TT:0 "#I Clique com o botão direito para manter esta aba#!"
+
+### 政治タブ / Politics ###
+RUI_Ch_show_council_TT:0 "#I Clique para mostrar o conselho#!"
+RUI_Ch_hide_council_TT:0 "#I Clique para ocultar o conselho#!"
+RUI_Ch_alliance_with_vassal_TT:0 "[alliance|E] com [vassal|E]"
+RUI_Ch_alliance_with_liege_TT:0 "[alliance|E] com [liege|E]"
+RUI_Ch_war_with_vassal_TT:0 "[war|E] com [vassal|E]"
+RUI_Ch_war_with_liege_TT:0 "[war|E] com [liege|E]"
+
+
+
+### 家族タブ / Family ###
+RUI_Ch_find_consort_TEXT:0 "Encontrar"
+
+### 拡張表示 / Expanded ###
+RUI_Ch_show_list_TT:0 "#I Clique para mostrar a lista\nClique com o botão direito para expandir a lista#!"
+RUI_Ch_hide_list_TT:0 "#I Clique para ocultar a lista#!"
+
+RUI_Ch_filters_TEXT:0 "$CHARACTER_LIST_FILTERS$"
+RUI_Ch_filter_reset_TT:0 "Reiniciar"
+RUI_Ch_change_list_format_TT:0 "#I Mudar formato da lista#!"
+RUI_Ch_filter_all_TEXT:0 "Todos"
+RUI_Ch_military_strength_TT:0 "Força militar"
+
+# キャラクターリスト / Character List
+RUI_Ch_filter_show_characters_TT:0 "#I Mostrar personagens que atendem a esta condição#!"
+RUI_Ch_filter_hide_characters_TT:0 "#I Ocultar personagens que atendem a esta condição#!"
+
+RUI_Ch_filter_type_health_TT:0 "[health|E]"
+RUI_Ch_filter_type_gender_TT:0 "$gender_filter$"
+RUI_Ch_filter_type_married_TT:0 "[marriage|E] ([betrothal|E])"
+RUI_Ch_filter_type_ruler_TT:0 "[ruler|E]"
+
+RUI_Ch_filter_alive_TEXT:0 "$is_alive_filter$"
+RUI_Ch_filter_dead_TEXT:0 "$not_alive_filter$"
+RUI_Ch_filter_male_TEXT:0 "$male_gender_filter$"
+RUI_Ch_filter_female_TEXT:0 "$female_gender_filter$"
+RUI_Ch_filter_married_TEXT:0 "$is_married_filter$"
+RUI_Ch_filter_unmarried_TEXT:0 "$not_married_filter$"
+RUI_Ch_filter_landed_TEXT:0 "$landed_ruler_filter_option$"
+RUI_Ch_filter_unlanded_TEXT:0 "$landless_ruler_filter_option$"
+
+
+# 称号リスト / Title List ###
+RUI_Ch_filter_show_titles_TT:0 "#I Mostrar títulos que atendem a esta condição#!"
+RUI_Ch_filter_hide_titles_TT:0 "#I Ocultar títulos que atendem a esta condição#!"
+
+RUI_Ch_filter_type_de_jure_TT:0 "[de_jure|E]"
+RUI_Ch_filter_type_heir_TT:0 "[heir|E]"
+RUI_Ch_filter_type_pressed_TT:0 "[title_claim|E]"
+RUI_Ch_filter_tier_all_TT:0 "Todos os [title_tiers|E]"
+
+RUI_Ch_filter_de_jure_TEXT:0 "$game_concept_de_jure$"
+RUI_Ch_filter_not_de_jure_TEXT:0 "Não $game_concept_de_jure$"
+RUI_Ch_filter_pressed_TEXT:0 "$game_concept_pressed_claim$"
+RUI_Ch_filter_unpressed_TEXT:0 "$game_concept_unpressed_claim$"
+RUI_Ch_filter_primary_heir_TEXT:0 "$game_concept_primary_heir$"
+RUI_Ch_filter_non_primary_heir_TEXT:0 "Herdeiros não principais"
+RUI_Ch_current_holder_TEXT:0 "[holder|E] atual:"
+
+# 特性リスト / Trait List
+RUI_Ch_filter_all_trait_TT:0 "Todos os [traits|E]"
+
+# 外交リスト / Diplomacy List
+RUI_Ch_filter_show_diplomacy_TT:0 "#I Mostrar relações diplomáticas que atendem a esta condição#!"
+RUI_Ch_filter_hide_diplomacy_TT:0 "#I Ocultar relações diplomáticas que atendem a esta condição#!"
+
+RUI_Ch_current_phase_TEXT:0 "Fase atual: [DiplomacyItem.GetStruggle.GetCurrentPhase.GetName]"
